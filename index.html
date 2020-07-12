@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">  <!--HTML5 Boilerplate-->
+        <title>Quiz Site</title>
+        <meta name="Quizzer" content="By Garret Andreine">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="assets/logo.png">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="cover_page">
+            <nav>
+                <div id="winner" class="hidden">
+                    YOU BEAT THE STATE QUIZ!
+                </div>
+                <div id="state_modal" class="hidden">  
+                    <!-- Modal was snipped from: https://www.w3schools.com/howto/howto_css_modals.asp -->
+                    <div id="state_quiz">
+                        Welcome To The State Quiz!
+                        <div id="column">
+                            <div id="alabama" class="hidden">Alabama</div>
+                            <div id="alaska" class="hidden">Alaska</div>
+                            <div id="arizona" class="hidden">Arizona</div>
+                            <div id="arkansas" class="hidden">Arkansas</div>
+                            <div id="california" class="hidden">California</div>
+                            <div id="colorado" class="hidden">Colorado</div>
+                            <div id="connecticut" class="hidden">Connecticut</div>
+                            <div id="delaware" class="hidden">Delaware</div>
+                            <div id="florida" class="hidden">Florida</div>
+                            <div id="georgia" class="hidden">Georgia</div>
+                            <div id="hawaii" class="hidden">Hawaii</div>
+                            <div id="idaho" class="hidden">Idaho</div>
+                            <div id="illinois" class="hidden">Illinois</div>
+                            <div id="indiana" class="hidden">Indiana</div>
+                            <div id="iowa" class="hidden">Iowa</div>
+                            <div id="kansas" class="hidden">Kansas</div>
+                            <div id="kentucky" class="hidden">Kentucky</div>
+                            <div id="louisiana" class="hidden">Louisiana</div>
+                            <div id="maine" class="hidden">Maine</div>
+                            <div id="maryland" class="hidden">Maryland</div>
+                            <div id="massachusetts" class="hidden">Massachusetts</div>
+                            <div id="michigan" class="hidden">Michigan</div>
+                            <div id="minnesota" class="hidden">Minnesota</div>
+                            <div id="mississippi" class="hidden">Mississippi</div>
+                            <div id="missouri" class="hidden">Missouri</div>
+                            <div id="montana" class="hidden">Montana</div>
+                            <div id="nebraska" class="hidden">Nebraska</div>
+                            <div id="nevada" class="hidden">Nevada</div>
+                            <div id="new hampshire" class="hidden">New Hampshire</div>
+                            <div id="new jersey" class="hidden">New Jersey</div>
+                            <div id="new mexico" class="hidden">New Mexico</div>
+                            <div id="new york" class="hidden">New York</div>
+                            <div id="north carolina" class="hidden">North Carolina</div>
+                            <div id="north dakota" class="hidden">North Dakota</div>
+                            <div id="ohio" class="hidden">Ohio</div>
+                            <div id="oklahoma" class="hidden">Oklahoma</div>
+                            <div id="oregon" class="hidden">Oregon</div>
+                            <div id="pennsylvania" class="hidden">Pennsylvania</div>
+                            <div id="rhode island" class="hidden">Rhode Island</div>
+                            <div id="south carolina" class="hidden">South Carolina</div>
+                            <div id="south dakota" class="hidden">South Dakota</div>
+                            <div id="tennessee" class="hidden">Tennessee</div>
+                            <div id="texas" class="hidden">Texas</div>
+                            <div id="utah" class="hidden">Utah</div>
+                            <div id="vermont" class="hidden">Vermont</div>
+                            <div id="virginia" class="hidden">Virginia</div>
+                            <div id="washington" class="hidden">Washington</div>
+                            <div id="west virginia" class="hidden">West Virginia</div>
+                            <div id="wisconsin" class="hidden">Wisconsin</div>
+                            <div id="wyoming" class="hidden">Wyoming</div>
+                        </div>
+                        <div id="input_area">
+                            <div class="timer">
+                                <p id="mins"></p>
+                                <p id="secs"></p>
+                                <h1 id="end"></h1>
+                            </div>
+                            <form id="input">
+                                <input type="text" class="form__input" id="name" autocomplete="off" placeholder="States" required="" />
+                                <button id="form_data">Enter</button>
+                            </form>
+                            <div id="steps">
+                                Enter in All 50 States Before the Time Runs Out!
+                            </div>
+                            <div id="total">
+                                <div>Score</div>
+                                <div id="score_board">0</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="leader_modal" class="hidden">
+                    STATE QUIZ LEADERBOARD
+                    <ol id="list" type="1">
+                        <li>Yes</li>
+                    </ol>
+                    <button id='reset' class='start-btn'>Reset Board</button>
+                </div>
+                <div id="banner">
+                    Welcome to Quizoro!
+                </div>
+                <div id="myModal" class="modal">  
+                    <!-- Modal was snipped from: https://www.w3schools.com/howto/howto_css_modals.asp -->
+                    <div class="modal-content" id="modal_items">
+                        <div id="general"> </div>
+                        <img id="modal_img" src="">
+                        <div id="result">
+                            Howdy
+                        </div>
+                        <div id="wrapper" class="hidden">
+                            <form id="username">
+                                <input type="text" class="form__enter" id="user" autocomplete="off" placeholder="User Name..."/>
+                                <button id="enter_b">Enter</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div id="quiz-box">
+                <div id="home-screen">
+                    <div class="grid">
+                        <button id="PokeQ" class='start-btn'>Pokemon Quiz</button>
+                        <button id="LBoard" class='start-btn'>Leader Board</button>
+                        <button id="CowQ" class='start-btn'>Cow Quiz</button>
+                        <button id="StateG" class='start-btn'>State Quiz</button>
+                    </div>
+                </div>
+                <div id="game" class="hidden">
+                    <div id="question-display">
+                        <div class="imgy">
+                            <img id="back-img" src=''>
+                        </div>
+                        <div id="question">Question</div>
+                        <div id="answers" class="grid">
+                            <button class="gen-button">Answer 1</button>
+                            <button class="gen-button">Answer 2</button>
+                            <button class="gen-button">Answer 3</button>
+                            <button class="gen-button">Answer 4</button>
+                        </div>
+                    </div>
+                    <div class="controls">
+                        <button id="home" class="home-button">Home</button>
+                        <button id="next" class="next-button">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"   
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+        </script>  <!-- Loads jQuery, provided in Lab Write-Up-->
+        <script src="main.js"></script>  <!--Script at bottom to save load time, and render everything before you get the js you need-->
+    </body>
+</html>

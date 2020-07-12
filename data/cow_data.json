@@ -1,0 +1,160 @@
+[
+    {
+        "question" : "What should Humans eat?",
+        "img" : "cow_pics/chik.jpg",
+        "answers" : [
+            {"text" : "Hummus", "value" : "1"},
+            {"text" : "Chikin", "value" : "2"},
+            {"text" : "Grass", "value" : "3"},
+            {"text" : "Not Cow", "value" : "4"}
+        ]
+    },
+    {
+        "question" : "Where do you want to sleep?",
+        "img" : "cow_pics/baby.jpg",
+        "answers" : [
+            {"text" : "Barn", "value" : "2"},
+            {"text" : "Field", "value" : "3"},
+            {"text" : "Tree", "value" : "4"},
+            {"text" : "Bed", "value" : "1"}
+        ]
+    },
+    {
+        "question" : "What is the Alpha Animal?",
+        "img" : "cow_pics/wig.jpg",
+        "answers" : [
+        {"text" : "Literally any other thing", "value" : "1"},
+        {"text" : "Cows", "value" : "2"}
+        ]
+    },
+    {
+        "question" : "What is your Favorite Drink?",
+        "img" : "cow_pics/drunk.jpg",
+        "answers" : [
+            {"text" : "Soda", "value" : "3"},
+            {"text" : "Water", "value" : "4"},
+            {"text" : "Krunk Juice", "value" : "1"},
+            {"text" : "Tea", "value" : "2"}
+        ]
+    },
+    {
+        "question" : "How much Moola do you want?",
+        "img" : "cow_pics/money.jpg",
+        "answers" : [
+            {"text" : "All of it", "value" : "4"},
+            {"text" : "Money != Happiness", "value" : "1"},
+            {"text" : "At least 5 dollars", "value" : "2"},
+            {"text" : "At most 10 dolalrs", "value" : "3"}
+        ]
+    },
+    {
+        "question" : "What color is your hair",
+        "img" : "cow_pics/scott.jpg",
+        "answers" : [
+            {"text" : "Other", "value" : "3"},
+            {"text" : "Black", "value" : "2"},
+            {"text" : "Brown", "value" : "4"},
+            {"text" : "Blonde", "value" : "1"}
+        ]
+    },
+    {
+        "question" : "Ideal Vacation?",
+        "img" : "cow_pics/vaca.jpg",
+        "answers" : [
+            {"text" : "Beach", "value" : "2"},
+            {"text" : "Forrest", "value" : "4"},
+            {"text" : "Lake", "value" : "3"},
+            {"text" : "City", "value" : "1"}
+        ]
+    },
+    {
+        "question" : "Where do you want to get Lost?",
+        "img" : "cow_pics/lost.jpg",
+        "answers" : [
+            {"text" : "I don't...", "value" : "4"},
+            {"text" : "A Musuem", "value" : "3"},
+            {"text" : "A Foreign Country", "value" : "1"},
+            {"text" : "I'm lost right now", "value" : "2"}
+        ]
+    },
+    {
+        "question" : "Which?",
+        "img" : "cow_pics/confuzed.jpg",
+        "answers" : [
+            {"text" : "North", "value" : "1"},
+            {"text" : "South", "value" : "2"},
+            {"text" : "East", "value" : "3"},
+            {"text" : "West", "value" : "4"}
+        ]
+    },
+    {
+        "question" : "What Color are you?",
+        "img" : "cow_pics/rain.jpg",
+        "answers" : [
+            {"text" : "I'm Colorblind", "value" : "1"},
+            {"text" : "A Secondary", "value" : "3"},
+            {"text" : "A Tertirary", "value" : "4"},
+            {"text" : "A Primary", "value" : "2"}
+        ]
+    },
+    {
+        "question" : "Best Study Asset?",
+        "img" : "cow_pics/smart.png",
+        "answers" : [
+            {"text" : "Earbuds", "value" : "1"},
+            {"text" : "Pencils", "value" : "2"},
+            {"text" : "Snacks", "value" : "3"},
+            {"text" : "What is Studying", "value" : "4"}
+        ]
+    },
+    {
+        "question" : "How cold are you?",
+        "img" : "cow_pics/cold.jpg",
+        "answers" : [
+            {"text" : "I'm freezing", "value" : "4"},
+            {"text" : "What is Cold", "value" : "3"},
+            {"text" : "I'm Overheating", "value" : "2"},
+            {"text" : "I feel Great", "value" : "1"}
+        ]
+    },
+    {
+        "question" : "How do you Sleep?",
+        "img" : "cow_pics/sleep.jpg",
+        "answers" : [
+            {"text" : "Back", "value" : "3"},
+            {"text" : "Belly", "value" : "2"},
+            {"text" : "Left Side", "value" : "1"},
+            {"text" : "Right Side", "value" : "4"}
+        ]
+    },
+    {
+        "question" : "Are you?",
+        "img" : "cow_pics/cute.jpg",
+        "answers" : [
+        {"text" : "Right Handed", "value" : "1"},
+        {"text" : "Left Handed", "value" : "2"},
+        {"text" : "Right Footed", "value" : "3"},
+        {"text" : "Left Footed", "value" : "4"}
+        ]
+    },
+    {
+        "question" : "What are you using right now?",
+        "img" : "cow_pics/phone.jpg",
+        "answers" : [
+        {"text" : "Phone", "value" : "4"},
+        {"text" : "Laptop", "value" : "3"},
+        {"text" : "Desktop", "value" : "2"},
+        {"text" : "Tablet", "value" : "1"}
+        ]
+    },
+    {
+        "question" : "How is your day going?",
+        "img" : "cow_pics/cow-jokes-funny-cow-puns.jpg",
+        "answers" : [
+        {"text" : "Better Now!", "value" : "2"},
+        {"text" : "Great!", "value" : "1"},
+        {"text" : "Amazing!", "value" : "3"},
+        {"text" : "Cowabunga!", "value" : "4"}
+        ]
+    }
+]

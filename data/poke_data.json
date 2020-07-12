@@ -1,0 +1,161 @@
+[
+
+    {
+        "question" : "What does Turtwig Evolve into?",
+        "img" : "poke_pics/turtle.png",
+        "answers" : [
+            {"text" : "Venasaur", "correct" : "false"},
+            {"text" : "Ivysaur", "correct" : "false"},
+            {"text" : "Torterra", "correct" : "false"},
+            {"text" : "Grotle", "correct" : "true"}
+        ]
+    },
+    {
+        "question" : "What does Charmander Evolve into?",
+        "img" : "poke_pics/char.jpg",
+        "answers" : [
+            {"text" : "Magmar", "correct" : "false"},
+            {"text" : "Ponyta", "correct" : "false"},
+            {"text" : "Arcanine", "correct" : "false"},
+            {"text" : "Charmeleon", "correct" : "true"}
+        ]
+    },
+    {
+        "question" : "Which is better?",
+        "img" : "poke_pics/poke.png",
+        "answers" : [
+        {"text" : "Literally any other thing", "correct" : "false"},
+        {"text" : "Pokemon", "correct" : "true"}
+        ]
+    },
+    {
+        "question" : "What was Ash Ketchum's First Pokemon?",
+        "img" : "poke_pics/catch.jpg",
+        "answers" : [
+            {"text" : "Pikachu", "correct" : "true"},
+            {"text" : "Pollywhirl", "correct" : "false"},
+            {"text" : "Zubat", "correct" : "false"},
+            {"text" : "Onix", "correct" : "false"}
+        ]
+    },
+    {
+        "question" : "What was James's first pokemon?",
+        "img" : "poke_pics/james.jpg",
+        "answers" : [
+            {"text" : "Growlithe", "correct" : "true"},
+            {"text" : "Pollytoad", "correct" : "false"},
+            {"text" : "Geodude", "correct" : "false"},
+            {"text" : "Milktank", "correct" : "false"}
+        ]
+    },
+    {
+        "question" : "In what Region does Professor Oak live?",
+        "img" : "poke_pics/lab.png",
+        "answers" : [
+            {"text" : "Hoenn", "correct" : "false"},
+            {"text" : "Sinnoh", "correct" : "false"},
+            {"text" : "Kanto", "correct" : "true"},
+            {"text" : "Johto", "correct" : "false"}
+        ]
+    },
+    {
+        "question" : "In what region can you get two types of bikes?",
+        "img" : "poke_pics/ofo-pikachu-bike-3.jpg",
+        "answers" : [
+            {"text" : "Kanto", "correct" : "false"},
+            {"text" : "Hoenn", "correct" : "true"},
+            {"text" : "Unova", "correct" : "false"},
+            {"text" : "Johto", "correct" : "false"}
+        ]
+    },
+    {
+        "question" : "What type of trainer is Lance of the Indigo Leauge?",
+        "img" : "poke_pics/Lance_anime_Pokémon_Journeys_series.png",
+        "answers" : [
+            {"text" : "Ground", "correct" : "false"},
+            {"text" : "Ice", "correct" : "false"},
+            {"text" : "Fighting", "correct" : "false"},
+            {"text" : "Dragon", "correct" : "true"}
+        ]
+    },
+    {
+        "question" : "Who is the gym leader of Vermillion City?",
+        "img" : "poke_pics/verm.jpg",
+        "answers" : [
+            {"text" : "Lt. Surge", "correct" : "true"},
+            {"text" : "Misty", "correct" : "false"},
+            {"text" : "Brock", "correct" : "false"},
+            {"text" : "Blaine", "correct" : "false"}
+        ]
+    },
+    {
+        "question" : "What was Dawn's Mom's old Profession?",
+        "img" : "poke_pics/dawn.jpg",
+        "answers" : [
+            {"text" : "Nurse", "correct" : "false"},
+            {"text" : "Beauty Pagent Queen", "correct" : "true"},
+            {"text" : "Police Officer", "correct" : "false"},
+            {"text" : "Gym Leader", "correct" : "false"}
+        ]
+    },
+    {
+        "question" : "What Pokemon attacked Ash during his first day as a trainner?",
+        "img" : "poke_pics/ashy.jpg",
+        "answers" : [
+            {"text" : "Fearow", "correct" : "false"},
+            {"text" : "Pidgey", "correct" : "false"},
+            {"text" : "Pidgeot", "correct" : "false"},
+            {"text" : "Spearow", "correct" : "true"}
+        ]
+    },
+    {
+        "question" : "Who helped Ash beat Lt. Surge?",
+        "img" : "poke_pics/surge.png",
+        "answers" : [
+            {"text" : "Steven Stone", "correct" : "false"},
+            {"text" : "Brock's Dad", "correct" : "true"},
+            {"text" : "Lance", "correct" : "false"},
+            {"text" : "Misty", "correct" : "false"}
+        ]
+    },
+    {
+        "question" : "Which of these Pokemon is not a Sinnoh Starter?",
+        "img" : "poke_pics/balls.png",
+        "answers" : [
+            {"text" : "Turtiwg", "correct" : "false"},
+            {"text" : "Piplup", "correct" : "false"},
+            {"text" : "Chimchar", "correct" : "false"},
+            {"text" : "Shinx", "correct" : "true"}
+        ]
+    },
+    {
+        "question" : "What Pokemon Rules the Distortion World",
+        "img" : "poke_pics/gir.png",
+        "answers" : [
+        {"text" : "Mew", "correct" : "false"},
+        {"text" : "Moltres", "correct" : "false"},
+        {"text" : "Ho-Oh", "correct" : "false"},
+        {"text" : "Giratina", "correct" : "true"}
+        ]
+    },
+    {
+        "question" : "What Item wakes up Snorlax?",
+        "img" : "poke_pics/snore.png",
+        "answers" : [
+        {"text" : "Silph Co. Alarm", "correct" : "false"},
+        {"text" : "Poke Flute", "correct" : "true"},
+        {"text" : "Rotom Phone", "correct" : "false"},
+        {"text" : "Honey", "correct" : "false"}
+        ]
+    },
+    {
+        "question" : "How many Taurous does Ask Ketchum have?",
+        "img" : "poke_pics/tauro.png",
+        "answers" : [
+        {"text" : "30", "correct" : "true"},
+        {"text" : "2", "correct" : "false"},
+        {"text" : "50", "correct" : "false"},
+        {"text" : "100", "correct" : "false"}
+        ]
+    }
+]
